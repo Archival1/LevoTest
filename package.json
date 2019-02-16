@@ -1,0 +1,19 @@
+{
+  "name": "levo",
+  "version": "1.0.0",
+  "description": "Levo Candidacy test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaun Sexton 2019",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "editorconfig": "^0.15.2",
+    "eslint": "^5.14.0",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "stylelint": "^9.10.1"
+  }
+}
