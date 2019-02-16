@@ -5,7 +5,10 @@ var app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname + '/public')));
+app.use(express.static(path.join(__dirname + '/')));
 
+app.get('*', (req, res) => {
+	res.sendFile(path.join(__dirname, 'index.html'));
+})
 var port = 3000;
-app.listen(port, () => console.log(`DEV Listening on port ${port}!`))
+app.listen(port, () => console.log(`Listening on port ${port}!`))
