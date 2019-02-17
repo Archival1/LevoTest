@@ -19,6 +19,6 @@ module.exports = {
         "node/prefer-global/process": ["error", "always"],
         "node/prefer-global/url-search-params": ["error", "always"],
         "node/prefer-global/url": ["error", "always"],
-        'no-console': 'off'
+		'no-console': 'off'
     }
 };
