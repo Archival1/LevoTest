@@ -15,12 +15,6 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   margin-bottom: 20px; }
 
-.card {
-  max-height: 350px;
-  height: 100%;
-  border-radius: 0px !important;
-  border: unset !important; }
-
 .card-body {
   color: white; }
 
@@ -38,14 +32,20 @@ body {
   border-top: unset !important;
   background-color: unset !important; }
 
-.orange {
+.cardOrange, .cardBlue, .cardPurple, .cardBrown {
+  max-height: 350px;
+  height: 100%;
+  border-radius: 0px !important;
+  border: unset !important; }
+
+.cardOrange {
   background-color: #f59925 !important; }
 
-.blue {
+.cardBlue {
   background-color: #4aaddf !important; }
 
-.purple {
+.cardPurple {
   background-color: #ab76ad !important; }
 
-.brown {
+.cardBrown {
   background-color: burlywood !important; }

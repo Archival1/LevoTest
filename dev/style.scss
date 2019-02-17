@@ -19,12 +19,6 @@ body {
 	font: 14px $font;
 	margin-bottom: 20px; //Content spacing
 }
-.card {
-	max-height: 350px;
-	height: 100%;
-	border-radius: 0px !important;
-	border: unset !important;
-}
 .card-body {
 	color:$cardTextColor;
 }
@@ -46,15 +40,25 @@ body {
 }
 
 // Card color choices
-.orange {
+%card {
+	max-height: 350px;
+	height: 100%;
+	border-radius: 0px !important;
+	border: unset !important;
+}
+.cardOrange {
+	@extend %card;
 	background-color: #f59925 !important;
 }
-.blue {
+.cardBlue {
+	@extend %card;
 	background-color: #4aaddf !important;
 }
-.purple {
+.cardPurple {
+	@extend %card;
 	background-color: #ab76ad !important;
 }
-.brown {
+.cardBrown {
+	@extend %card;
 	background-color: burlywood !important;
 }

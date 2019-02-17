@@ -1,3 +1,4 @@
+//For hosting locally via NPM
 var express = require('express');
 var path = require('path');
 

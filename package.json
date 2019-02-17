@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node app.js",
-	"build" : "node-sass dev/style.scss style.css && stylelint \"./dev/style.scss\" --formatter verbose && node app.js",
-	"style" : "stylelint \"./dev/style.scss\" --formatter verbose"
+    "start": "node app.js",
+    "build": "node-sass dev/style.scss style.css && stylelint \"./dev/style.scss\" --formatter verbose && node app.js",
+    "style": "stylelint \"./dev/style.scss\" --formatter verbose"
   },
   "author": "Shaun Sexton 2019",
   "license": "ISC",
@@ -19,7 +19,8 @@
     "node-sass": "^4.11.0",
     "popper.js": "^1.14.7",
     "stylelint": "^9.10.1",
-    "stylelint-config-recommended": "^2.1.0"
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-scss": "^3.5.3"
   },
   "devDependencies": {
     "eslint": "^5.14.0"
